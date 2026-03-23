@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Waits Suite">
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Waits Demo">
+        <classes>
+            <class name="com.framework.tests.WaitsDemoTest"/>
+        </classes>
+    </test>
+
+</suite>
